@@ -1,6 +1,6 @@
 function sendForm(formData) {
   return new Promise((resolve, reject) => {
-    fetch("http://127.0.0.1:5000/submit", {
+    fetch("https://mysqft-crm.onrender.com/submit", {
       method: "POST",
       body: formData,
      // credentials: "include" // only if you need cookies
