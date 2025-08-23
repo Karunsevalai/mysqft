@@ -160,6 +160,9 @@
             color: #4CAF50;
             font-size: 1.3rem;
         }
+        .map span{
+            color: rgb(154, 158, 183);
+        }
 
        @media screen and (max-width: 600px) {
           .map {
